@@ -130,28 +130,34 @@ body {
 .img_1 {
     width: 16px;
     height: 16px;
-    background-image: url(./../components/images/telegram.png);
+    background-image: url(./../components/images/location.png);
 }
 
 .img_2 {
     width: 16px;
     height: 16px;
-    background-image: url(./../components/images/email.png);
+    background-image: url(./../components/images/phone-call.png);
 }
 
 .img_3 {
     width: 16px;
     height: 16px;
-    background-image: url(./../components/images/github-sign.png);
+    background-image: url(./../components/images/email.png);
 }
 
 .img_4 {
     width: 16px;
     height: 16px;
-    background-image: url(./../components/images/discord.png);
+    background-image: url(./../components/images/github-sign.png);
 }
 
 .img_5 {
+    width: 16px;
+    height: 16px;
+    background-image: url(./../components/images/discord.png);
+}
+
+.img_6 {
     width: 16px;
     height: 16px;
     background-image: url(./../components/images/linkedin-logo.png);
@@ -224,6 +230,18 @@ body {
     color: rgb(80, 77, 77);
     font-size: 14px;
     line-height: 22px;
+}
+
+.work__text {
+    list-style: none;
+}
+
+.education__list li {
+    list-style: none;
+}
+
+.english__title {
+    margin-top: 20px;
 }
 
 .work__text {
