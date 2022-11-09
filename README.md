@@ -1,1 +1,1 @@
-[# rsschool-cv](https://izmailowalex.github.io/cv_ru/)
+[Кликни и посмотри моё CV](https://izmailowalex.github.io/cv_ru/)
