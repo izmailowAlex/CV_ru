@@ -1,0 +1,152 @@
+@media (max-width: 1024px) {
+
+    .cv_card {
+        max-width: 90%;
+    }
+
+    .block_left__avatar_border {
+        width: 160px;
+        height: 160px;
+    }
+
+    .block_left__avatar {
+        width: 150px;
+        height: 150px;
+    }
+
+    .block_left__skills,
+    .block_left__soft,
+    .block_left__contacts {
+        margin-top: 30px;
+        margin-left: 5px;
+    }
+
+    .skills__list,
+    .soft__list {
+        font-size: 14px;
+        line-height: 15px;
+    }
+
+    .contacts__title_contain {
+        gap: 10px;
+    }
+
+    .contacts__title_contain_img {
+        margin-left: 5px;
+    }
+
+}
+
+@media (max-width: 780px) {
+
+    .cv_card {
+        max-width: 98%;
+    }
+
+    .block_left__avatar_border {
+        width: 110px;
+        height: 110px;
+        margin: 20px auto 0 auto;
+    }
+
+    .block_left__avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .skills__title,
+    .soft__title {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .skills__list,
+    .soft__list {
+        padding: 40px 0 10px 0;
+    }
+
+    .skills__list li,
+    .soft__list li {
+        margin-bottom: 25px;
+    }
+
+    .contacts__title_contain_img {
+        display: none;
+    }
+
+    .contacts__title_contain {
+        width: 100%;
+        text-align: center;
+        display: block;
+    }
+
+    .contacts__title_contain_text {
+        height: 100%;
+        padding-top: 5px;
+    }
+
+    .block_right__about,
+    .block_right__work,
+    .block_right__education {
+        padding: 10px 20px;
+    }
+
+    .block_right__header {
+        margin: 20px 0 20px 0;
+        padding-left: 20px;
+    }
+
+    .header__name {
+        font-size: 26px;
+        letter-spacing: 2px;
+    }
+    
+    .header__prof {
+        font-size: 16px;
+        letter-spacing: 1.4px;
+    }
+
+    .about__text,
+    .work__text,
+    .education__list {
+        padding-top: 20px;
+        line-height: 18px;
+    }
+
+}
+
+@media (max-width: 450px) {
+
+    .block_left__avatar_border {
+        width: 80px;
+        height: 80px;
+    }
+    
+    .block_left__avatar {
+        width: 70px;
+        height: 70px;
+    }
+
+    .skills__title,
+    .soft__title {
+        font-size: 14px;
+    }
+
+    .skills__list,
+    .soft__list {
+        font-size: 12px;
+    }
+
+    .contacts__title_block {
+        width: 10px;
+    }
+
+    .contacts__title_name {
+        font-size: 12px;
+    }
+
+    .contacts__title_contain_text {
+        font-size: 8px;
+    }
+
+}

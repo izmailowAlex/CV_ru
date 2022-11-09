@@ -1,0 +1,239 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: arial;
+    font-size: 16px;
+    background-color: rgb(203, 199, 199);
+}
+
+.cv_card {
+    max-width: 1000px;
+    display: flex;
+    margin: 2% auto 2% auto;
+    box-shadow: 0 10px 50px rgb(136, 133, 133);
+}
+
+.cv_card__block_left {
+    width: 28%;
+    line-height: 18px;
+    background-color: rgb(12, 12, 12);
+    color: #ccc;
+}
+
+.block_left__avatar_border {
+    width: 260px;
+    height: 260px;
+    background-color: #fec72f;
+    border-radius: 50%;
+    position: relative;
+    display: flex;
+    margin: 10px auto 0 auto;
+}
+
+.block_left__avatar {
+    background-image: url(./../components/images/IMG_3236_Original_min.jpg);
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin: auto;
+    /* display: none; */
+    /* position: relative; */
+}
+
+.block_left__skills,
+.block_left__soft,
+.block_left__contacts {
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.skills__title,
+.soft__title {
+    padding-bottom: 4px;
+    border-bottom: 2px solid #fec72f;
+    color: #fff;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.skills__list,
+.soft__list {
+    font-size: 16px;
+    margin-left: 10px;
+    padding: 20px 0 10px 0;
+    line-height: 14px;
+    list-style: none;
+}
+
+.skills__list li,
+.soft__list li {
+    margin-bottom: 15px;
+}
+
+.block_left__contacts {
+    list-style: none;
+}
+
+.contacts__title,
+.contacts__title_contain {
+    height: 30px;
+}
+
+.contacts__title {
+    display: flex;
+}
+
+.contacts__title_block {
+    width: 40px;
+    height: 100%;
+    background-color: #fec72f;
+}
+
+.contacts__title_name {
+    padding-left: 5%;
+    width: 100%;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    letter-spacing: 2px;
+    display: flex;
+    align-items: center;
+}
+
+.contacts__title_contain {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.contacts__title_contain_img {
+    margin-left: 10px;
+    height: 30px;
+    align-items: center;
+    display: grid;
+}
+
+.img_1 {
+    width: 16px;
+    height: 16px;
+    background-image: url(./../components/images/telegram.png);
+}
+
+.img_2 {
+    width: 16px;
+    height: 16px;
+    background-image: url(./../components/images/email.png);
+}
+
+.img_3 {
+    width: 16px;
+    height: 16px;
+    background-image: url(./../components/images/github-sign.png);
+}
+
+.img_4 {
+    width: 16px;
+    height: 16px;
+    background-image: url(./../components/images/discord.png);
+}
+
+.img_5 {
+    width: 16px;
+    height: 16px;
+    background-image: url(./../components/images/linkedin-logo.png);
+}
+
+.contacts__title_contain_img img {
+    vertical-align: middle;
+}
+
+.contacts__title_contain_text {
+    color: #fec72f;
+}
+
+.cv_card__block_right {
+    width: 72%;
+    background-color: #fff;
+}
+
+.block_right__header {
+    margin: 40px 0 35px 0;
+    padding-left: 30px;
+    width: 100%;
+    height: 100px;
+    background-color: #fec72f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+
+.header__name {
+    font-size: 37px;
+    letter-spacing: 3px;
+}
+
+.header__name span {
+    font-weight: bold;
+}
+
+.header__prof {
+    font-size: 20px;
+    font-weight: normal;
+    text-transform: uppercase;
+    letter-spacing: 1.4px;
+}
+
+.block_right__about,
+.block_right__work,
+.block_right__education {
+    padding: 20px 40px;
+}
+
+.about__title,
+.work__title,
+.education__title,
+.english__title {
+    padding-bottom: 4px;
+    border-bottom: 2px solid rgb(80, 77, 77);
+    color: rgb(80, 77, 77);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.about__text,
+.work__text,
+.education__list {
+    padding-top: 30px;
+    color: rgb(80, 77, 77);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.work__text {
+    list-style: none;
+}
+
+.education__list li {
+    list-style: none;
+}
+
+.english__title {
+    margin-top: 20px;
+}
